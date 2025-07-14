@@ -30,3 +30,39 @@ img {
   display: block;
   margin: 10px auto;
 }
+
+/* Navigation bar styling */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Navigation list layout */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Navigation links */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Active link */
+nav ul li a.active {
+  background-color: #ff9800;
+  color: black;
+  border-radius: 4px;
+}
