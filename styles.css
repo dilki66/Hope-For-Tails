@@ -66,3 +66,66 @@ nav ul li a.active {
   color: black;
   border-radius: 4px;
 }
+
+/* Hero section */
+.hero {
+  text-align: center;
+  background-color: #fff8e1;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero heading */
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff9800;
+}
+
+/* Hero image */
+.hero img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  opacity: 0.95;
+}
+
+/* Hero paragraph */
+.hero p {
+  font-size: 18px;
+  color: #444;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Button */
+.hero-btn {
+  padding: 12px 24px;
+  background-color: #ff9800;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #e67e00;
+}   
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
