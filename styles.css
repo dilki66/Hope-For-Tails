@@ -31,10 +31,39 @@ img {
   margin: 10px auto;
 }
 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+}
+
+/* Logo and site name */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-container img.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* Site name styling */
+.logo-container h1 {
+  font-size: 30px;
+  color: #ff9800;
+}
+
 /* Navigation bar styling */
 nav {
-  background-color: #333;
-  padding: 10px 0;
+  background-color:black;
+  padding: 10px 20px;
 }
 
 /* Navigation list layout */
@@ -99,7 +128,7 @@ nav ul li a.active {
 /* Hero paragraph */
 .hero p {
   font-size: 18px;
-  color: #444;
+  color: black;
   margin: 20px auto;
   max-width: 600px;
 }
