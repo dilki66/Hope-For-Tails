@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Hope for Tails</h1>
+        <h1>Hope For Tails</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -25,7 +25,7 @@
     </section>
     
     <section>
-        <form>
+        <form class="adoption-form">
             <label for ="Fullname">Full Name</label>
             <input type="text" id="fullname"> <br><br>
 
@@ -36,16 +36,16 @@
             <input type="text" id="petname"> <br><br>
 
             <label>Do you have other pets?</label>
-            <input type="radio" id="yes">
-            <label for ="yes">Yes</label>
-            <input type="radio" id="no">
-            <label for ="no">No</label> <br><br>
-            
+            <div>
+            <input type="radio" name="otherPets" value="yes"> Yes
+            <input type="radio" name="otherPets" value="no"> No
+            </div>
+
             <label>Choose your home type</label>
-            <input type="radio" id="home">
-            <label for ="home">Home</label>
-            <input type="radio" id="apartment">
-            <label for ="apartment">Apartment</label> <br><br>
+            <div>
+            <input type="radio" name="homeType" value="Home"> Home
+            <input type="radio" name="homeType" value="Apartment"> Apartment
+            </div>
 
             <input type="button" value="Submit">
             <br>

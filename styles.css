@@ -129,3 +129,124 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+
+/* Improved Adopt Table Styling */
+.adopt-table {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Headings */
+.adopt-table th {
+  background-color: #ff9800;
+  color: #fff;
+  text-align: left;
+  padding: 16px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+/* Table Rows */
+.adopt-table td {
+  padding: 16px;
+  font-size: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+
+/* Table Row Hover */
+.adopt-table tr:hover {
+  background-color: #fff3e0;
+  transition: background-color 0.3s ease;
+}
+
+/* Pet Image Styling */
+.adopt-table img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ffcc80;
+  transition: transform 0.3s;
+}
+
+.adopt-table img:hover {
+  transform: scale(1.1);
+}
+
+/* Adopt Button Styling */
+.adopt-table button {
+  padding: 10px 16px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.adopt-table button:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+}
+
+/* Adoption Form Wrapper */
+.adoption-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff8e1;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Elements */
+.adoption-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+.adoption-form input[type="text"],
+.adoption-form input[type="radio"],
+.adoption-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Make radio inline but space them well */
+.adoption-form input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+/* Button Styling */
+.adoption-form input[type="button"] {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.adoption-form input[type="button"]:hover {
+  background-color: #e67e00;
+}
+
+
