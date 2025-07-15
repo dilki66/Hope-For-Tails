@@ -151,11 +151,11 @@ nav ul li a.active {
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: black;
   color: white;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 10px;
+  margin-top: 10px;
   font-size: 14px;
 }
 
@@ -165,7 +165,7 @@ footer {
   max-width: 1000px;
   margin: 40px auto;
   border-collapse: collapse;
-  background-color: #fff;
+  background-color: #fff8e1;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -191,14 +191,14 @@ footer {
 
 /* Table Row Hover */
 .adopt-table tr:hover {
-  background-color: #fff3e0;
+  background-color: #fcebcf;
   transition: background-color 0.3s ease;
 }
 
 /* Pet Image Styling */
 .adopt-table img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid #ffcc80;
@@ -283,7 +283,7 @@ footer {
   max-width: 600px;
   margin: 40px auto;
   padding: 30px;
-  background-color: #e1f5fe;
+  background-color: #fff8e1;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -308,7 +308,7 @@ footer {
 
 /* Send button */
 .contact-form input[type="button"] {
-  background-color: #0288d1;
+  background-color:#ff9800;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -319,7 +319,7 @@ footer {
 }
 
 .contact-form input[type="button"]:hover {
-  background-color: #0277bd;
+  background-color: #e67e00;
 }
 
 /* Contact Details Section */
@@ -329,13 +329,13 @@ footer {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
-  border-left: 5px solid #0288d1;
+  border-left: 5px solid #ff9800;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .contact-details dt {
   font-weight: bold;
-  color: #0288d1;
+  color: #ff9800;
   margin-top: 10px;
 }
 
