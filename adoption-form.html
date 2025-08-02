@@ -16,6 +16,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="Volunteer.html">Volunteer</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -28,15 +29,15 @@
     </section>
     
     <section>
-        <form class="adoption-form">
+        <form id="adoptionForm"  class="adoption-form">
             <label for ="Fullname">Full Name</label>
-            <input type="text" id="fullname"> <br><br>
+            <input type="text" id="fullname" required><br><br>
 
             <label for ="Contact">Contact No</label>
-            <input type="text" id="Contact"> <br><br>
+            <input type="text" id="Contact" required> <br><br>
 
             <label for ="petname"> Pet you want to adopt</label>
-            <input type="text" id="petname"> <br><br>
+            <input type="text" id="petname" required> <br><br>
 
             <label>Do you have other pets?</label>
             <div>
@@ -50,12 +51,13 @@
             <input type="radio" name="homeType" value="Apartment"> Apartment
             </div>
 
-            <input type="button" value="Submit">
+            <button type="submit">Submit</button>
             <br>
 
         </form>
     </section>
 
+    <script src="script.js"></script>
      <footer>
         <p>&copy; 2025 Hope for Tails. All Rights Reserved.</p>
     </footer>
