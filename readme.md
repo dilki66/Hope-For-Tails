@@ -4,15 +4,15 @@
 ---
 ##  Project Structure
 
-─ index.html # Home page
-─ adopt.html # Adoption form page
-─ volunteer.html # Volunteer page
-─ about-us.html # About Us page
-─ contact.html # Contact page
-─ styles.css # CSS for styling and responsiveness
-─ script.js # JavaScript for interactivity and validation
-─ images/ # Folder containing pet and logo images
-─ README.md # Project documentation
+-index.html # Home page
+-adopt.html # Adoption form page
+-volunteer.html # Volunteer page
+-about-us.html # About Us page
+-contact.html # Contact page
+-styles.css # CSS for styling and responsiveness
+-script.js # JavaScript for interactivity and validation
+-images/ # Folder containing pet and logo images
+-README.md # Project documentation
 
 ---
 
